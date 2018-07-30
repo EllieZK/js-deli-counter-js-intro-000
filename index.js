@@ -21,7 +21,7 @@ function currentLine(deliLine){
   if (deliLine.length > 0){
     for (var n = 0; n<deliLine.length; n ++)
     {
-    state + (n+1) + "." + " " + deliLine[n] + "," + " "
+    return state + (n+1) + "." + " " + deliLine[n] + "," + " "
   }
     }
 else {
