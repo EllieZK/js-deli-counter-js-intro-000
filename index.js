@@ -14,16 +14,18 @@ function nowServing(katzDeliLine){
     }
 };
 
-function currentLine(katzDeliLine) {
-if(katzDeliLine.length < 1) {
-  return "The line is currently empty."
-}
-else {
-  var n = 0;
-  var statement = "the line is currently:";
-  for (var n = 0; n<katzDeliLine.length; n ++)
-    {
-    return 'The line is currently: ${name, katzDeliLine[n]}.'
+
+function currentLine(katzDeliLine){
+  var state = "The line is currently: ";
+  var n;
+  if (katzDeliLine.length > 0){
+    for (var n = 0; n<katzDeliLine.length; n ++)
+      {
+      return 'statement + ${n+1}. ${name}, katzDeliLine[n]}.'
+      }
     }
   }
-};
+else {
+  return "The line is currently empty."
+  }
+}
