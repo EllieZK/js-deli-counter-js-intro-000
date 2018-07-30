@@ -20,9 +20,9 @@ function currentLine(deliLine){
   var n;
   if (deliLine.length > 0){
     for (var n = 0; n<deliLine.length; n ++)
-      {
-      return  state + (n + 1) + ". " + name, + " deliLine[n]. "
-      }
+    {
+    state.push(`${n + 1}. ${katzDeliLine[n]}`)
+  }
     }
 else {
   return "The line is currently empty."
