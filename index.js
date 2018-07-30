@@ -18,10 +18,10 @@ function nowServing(deliLine){
 function currentLine(deliLine){
   var state = "The line is currently: ";
   var n;
-  if (katzDeliLine.length > 0){
-    for (var n = 0; n<katzDeliLine.length; n ++)
+  if (deliLine.length > 0){
+    for (var n = 0; n<deliLine.length; n ++)
       {
-      return state.push(katzDeliLine``)
+      return state.push(deliLine``)
       }
     }
 else {
