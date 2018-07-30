@@ -14,16 +14,16 @@ function nowServing(katzDeliLine){
     }
 };
 
-function currentLine(katzDeliLine){
-var n 
+function currentLine(katzDeliLine) {
+var n; 
 if(katzDeliLine.length > 0){
 for (n = 0; n<katzDeliLine.length; n ++){
   {
     return 'The line is currently: ${name, katzDeliLine[n]}.'
+    }
   }
 }
 else {
   return "The line is currently empty."
     }
-  }
 };
