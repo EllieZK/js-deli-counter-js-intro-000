@@ -16,9 +16,9 @@ function nowServing(katzDeliLine){
 
 function currentLine(katzDeliLine){
 if(katzDeliLine.length > 0){
-for (n = 0; n<katzDeliLine.length; n ++){  
+for (n = 0; n<katzDeliLine.length; n ++){
   {
-    return 'The line is currently: 1. Bill, 2. Jane, 3. Ann'
+    return 'The line is currently: ${name, katzDeliLine[n]}.+ "" + ""'
   }
 }
 else {
