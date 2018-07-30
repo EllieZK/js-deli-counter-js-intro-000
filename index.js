@@ -1,4 +1,4 @@
-var katzDeliLine = [];
+var DeliLine = [];
 
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name);
@@ -21,7 +21,7 @@ function currentLine(katzDeliLine){
   if (katzDeliLine.length > 0){
     for (var n = 0; n<katzDeliLine.length; n ++)
       {
-      return 'statement + ${n+1}. ${name}, katzDeliLine[n]}.'
+      return state.push(katzDeliLine``)
       }
     }
 else {
