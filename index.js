@@ -19,7 +19,7 @@ function currentLine(deliLine){
   var blank = []
   var n;
   if (deliLine.length > 0){
-    for (var n = 0; n<deliLine.length; n ++)
+    for (var n = 0; n < deliLine.length; n ++)
     {
       blank.push(`${n + 1}. ${deliLine[n]}`);
  }
