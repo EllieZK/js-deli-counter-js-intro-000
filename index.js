@@ -21,7 +21,7 @@ function currentLine(deliLine){
   if (deliLine.length > 0){
     for (var n = 0; n<deliLine.length; n ++)
       {
-      return state.push(deliLine``)
+      return  state + (n + 1) + ". " + name, + " deliLine[n]. "
       }
     }
 else {
