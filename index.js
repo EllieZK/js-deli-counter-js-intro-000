@@ -15,7 +15,6 @@ function nowServing(deliLine){
 };
 
 
-
 function currentLine(deliLine){
   var blank = []
   var n;
