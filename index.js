@@ -24,8 +24,7 @@ function currentLine(katzDeliLine){
       return 'statement + ${n+1}. ${name}, katzDeliLine[n]}.'
       }
     }
-  }
 else {
   return "The line is currently empty."
   }
-}
+};
