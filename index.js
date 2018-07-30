@@ -15,7 +15,7 @@ function nowServing(deliLine){
 };
 
 
-function currentLine(katzDeliLine){
+function currentLine(deliLine){
   var state = "The line is currently: ";
   var n;
   if (katzDeliLine.length > 0){
