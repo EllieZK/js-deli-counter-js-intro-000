@@ -17,14 +17,14 @@ function nowServing(deliLine){
 
 
 function currentLine(deliLine){
-  var state = []
+  var blank = []
   var n;
   if (deliLine.length > 0){
     for (var n = 0; n<deliLine.length; n ++)
     {
-      state.push(`${n + 1}. ${deliLine[n]}`);
+      blank.push(`${n + 1}. ${deliLine[n]}`);
  }
- return 'The line is currently: ' + state.join(', ');
+ return 'The line is currently: ' + blank.join(', ');
  }
 else {
   return "The line is currently empty."
