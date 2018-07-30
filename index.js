@@ -2,12 +2,12 @@ var deliLine = [];
 
 function takeANumber(deliLine, name){
   deliLine.push(name);
-  return (`Welcome, ${name}. You are number ${DeliLine.length} in line.`)
+  return (`Welcome, ${name}. You are number ${deliLine.length} in line.`)
 };
 
-function nowServing(DeliLine){
-  if (DeliLine.length > 0){
-    return `Currently serving ${DeliLine.shift()}.`
+function nowServing(deliLine){
+  if (deliLine.length > 0){
+    return `Currently serving ${deliLine.shift()}.`
   }
       else {
         return "There is nobody waiting to be served!"
